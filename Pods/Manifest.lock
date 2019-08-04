@@ -1,0 +1,28 @@
+PODS:
+  - Alamofire (4.8.2)
+  - Kingfisher (5.7.0)
+  - Toast-Swift (5.0.0)
+  - YoutubeDirectLinkExtractor (0.2.0)
+
+DEPENDENCIES:
+  - Alamofire
+  - Kingfisher
+  - Toast-Swift
+  - YoutubeDirectLinkExtractor
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Alamofire
+    - Kingfisher
+    - Toast-Swift
+    - YoutubeDirectLinkExtractor
+
+SPEC CHECKSUMS:
+  Alamofire: ae5c501addb7afdbb13687d7f2f722c78734c2d3
+  Kingfisher: c7d211b54f1f30d8060aadab177d52b4349c825b
+  Toast-Swift: 36f4720243c8582c2be243a60a51e193c761f541
+  YoutubeDirectLinkExtractor: 068b6a09d64551cb7cec966179d7f5f5824cd2db
+
+PODFILE CHECKSUM: 4980fd489cab47f9573e8626a20151073064b945
+
+COCOAPODS: 1.7.5
