@@ -83,7 +83,9 @@ class MovieDetailViewController: UIViewController {
             YoutubeDirectLinkExtractor().extractInfo(for: .id(key), success: { [weak self] (info) in
                 self?.playVideo(str: info.highestQualityPlayableLink!)
             }) { (error) in
-                self.view.makeToast(error.localizedDescription)
+                DispatchQueue.main.async {
+                    self.view.makeToast(error.localizedDescription)
+                }
             }
         } else {
             self.view.makeToast("No video links available")
