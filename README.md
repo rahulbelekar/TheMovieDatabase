@@ -1,5 +1,4 @@
 # TheMovieDatabase
-TenTwentyAssignment
 
 List of tasks completed
 1. Catalog of most popular movies -> Done
